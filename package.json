@@ -1,0 +1,19 @@
+{
+  "name": "articleimg_src",
+  "version": "1.0.0",
+  "description": "图片仓库",
+  "main": "index.js",
+  "scripts": {
+    "d": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OBKoro1/articleImg_src"
+  },
+  "author": "OBKoro1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OBKoro1/articleImg_src/issues"
+  },
+  "homepage": "https://github.com/OBKoro1/articleImg_src#readme"
+}
