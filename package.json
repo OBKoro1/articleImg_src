@@ -4,7 +4,8 @@
   "description": "图片仓库",
   "main": "index.js",
   "scripts": {
-    "d": "bash deploy.sh"
+    "d": "bash deploy.sh",
+    "read": "node readImg.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/OBKoro1/articleImg_src/issues"
   },
-  "homepage": "https://github.com/OBKoro1/articleImg_src#readme"
+  "homepage": "https://github.com/OBKoro1/articleImg_src#readme",
+  "devDependencies": {
+    "request": "^2.88.0"
+  },
+  "dependencies": {
+    "async": "^3.0.1"
+  }
 }
