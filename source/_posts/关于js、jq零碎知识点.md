@@ -78,7 +78,7 @@ getElementsByClassName() 方法返回文档中**所有指定类名的元素集�
 
 背景：
 
-![](https://dn-mhke0kuv.qbox.me/861f21343e72acc58b98)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 这种情况是作用域的问题，上面定义的变量是全局变量，在虽然是一个闭包，但是应该可以使用全局的变量，回一级一级往上找这个变量。这里不太清楚为什么会没有找到？
 
@@ -97,7 +97,7 @@ JavaScript中的**任何一个全局函数或变量都是window的属性**，可
 ````
 实际应用如下：
 
-![上图中变量作用域的问题](https://dn-mhke0kuv.qbox.me/4b68ec3b72d3da9cca16)
+![上图中变量作用域的问题](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 应用场景：
 
@@ -111,7 +111,7 @@ JavaScript中的**任何一个全局函数或变量都是window的属性**，可
 ---
 ### 效果如图：
 
-![](https://dn-mhke0kuv.qbox.me/5d96e241836866c4e36e)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 如图，占位符和换行符**在字符串中正常生效**，不会变成字符串。其他的我不知道，反正这两个亲测可行，个人觉得蛮神奇，一直以为会变成字符串。
 
@@ -119,7 +119,7 @@ JavaScript中的**任何一个全局函数或变量都是window的属性**，可
 
 大家可以看看：
 
-![](https://dn-mhke0kuv.qbox.me/5580dc1061b8b6caf36c)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ---
 

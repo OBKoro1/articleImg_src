@@ -19,10 +19,10 @@ categories: 工具类
 
 1.选择“窗口”——把“信息”，“图层”，“历史记录”，“颜色”面板打开，其他的可以先关闭了，在切图的工作中其他的基本用不到，这个很简单的，**打几个勾就可以了**，如下图所示：
 
-![Paste_Image.png](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_1.png)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
-![工作区的内容](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_2.png)
+![工作区的内容](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 2.调整好面板之后，选择“窗口”——“工作区”——“新建工作区”，**将当前的工作布局保存**起来，并命个名，之后下次打开的时候就会直接出现你调整好的工作布局，否则的话你每次重新打开ps的时候都要重新设置。
 
@@ -32,46 +32,46 @@ ps：就算有别人弄乱了你的面板也可以直接通过“窗口”——
 ---
 切图需求：
 
-![这是我们需要切的图](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_3.png)
+![这是我们需要切的图](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 #### 切图步骤见图
 
 
-![切图步骤1.](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_4.png)
+![切图步骤1.](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 选择图层的时候要先按住alt不放，然后再按鼠标右键。
-![Paste_Image.png](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_5.png)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 ### 隐藏图层。
 
-![Paste_Image.png](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_6.png)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 效果：
 
-![Paste_Image.png](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_7.png)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 连续操作隐藏图层(**背景图要隐藏干净**)：
 
 ####  效果，以及接下的步骤（切线就是一根根淡蓝色的线）
 
-![Paste_Image.png](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_8.png)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 保存切片1
 
-![Paste_Image.png](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_9.png)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 保存切片2
 
 
-![Paste_Image.png](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_10.png)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 #### 保存切片3
-![Paste_Image.png](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_11.png)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 
 被局限的方法（原理是一样的）：
 
-![这有局限](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_12.png)
+![这有局限](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 踩坑经历：
 ===
@@ -80,21 +80,21 @@ ps：就算有别人弄乱了你的面板也可以直接通过“窗口”——
 
 #### 切出来的图片对比：
 
-![Paste_Image.png](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_13.png)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 网页效果对比：
 
-![](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_14.png)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 更新一波原理：
 之前不知道为什么png8，png24为什么有这种差别，经过评论区@唐挽斐 解答一波，现在明白了，更新到文章里面。
 
 
-![](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_15.png)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 因为黄色图标这里是不透明的，png8不支持半透明的
 
-![](https://raw.githubusercontent.com/OBKoro1/article-demo/master/blogImg/2017_4_9_16.png)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 搜了一下png8和png-24的区别：
 

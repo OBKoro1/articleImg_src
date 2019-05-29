@@ -69,12 +69,12 @@ XMLHttpRequest对象:
 XMLHttpRequest对象的属性：
 ---
 
-![XMLHttpRequest对象的属性](https://dn-mhke0kuv.qbox.me/3210e9b464b7a2e6ae3b)
+![XMLHttpRequest对象的属性](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 XMLHttpRequest对象的方法：
 ---
 
-![XMLHttpRequest对象的方法](https://dn-mhke0kuv.qbox.me/5e62e2775f857c5ee426)
+![XMLHttpRequest对象的方法](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 [图片出处](https://juejin.im/entry/583a9e02ac502e006c214b81)
 
@@ -90,7 +90,7 @@ Ajax的跨域请求由哪些部分组成的
 
 ### GET和POST两种请求方式对比：
 
-![](https://dn-mhke0kuv.qbox.me/55cec81020363c5a0499)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 在前后端分离的情况下，对于前端的小伙伴来说，一般是后端选择请求接口，请求方式，让我们去使用，所以请求方式的选择这点，稍微了解一下即可。
 
@@ -102,7 +102,7 @@ Ajax的跨域请的回复：http响应：
 
 ### 服务器端返回的：常见的HTTP状态码
 
-![](https://dn-mhke0kuv.qbox.me/90fcc69d12c28cba1338)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 关于http的状态码还有非常多，不止上图这点这么简单，有兴趣的可以看本人之前写的一篇文章：[http状态码详解](https://juejin.im/post/590082e6a22b9d0065be1a5c)。
 

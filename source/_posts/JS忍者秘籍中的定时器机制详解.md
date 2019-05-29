@@ -7,7 +7,7 @@ tags:
 - js 机制
 categories: js
 ---
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fsebc3qecej30sg0ix1kx.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ## 前言
 
@@ -31,7 +31,7 @@ categories: js
 
 直接引用忍者秘籍中的图片：
 
-![](https://user-gold-cdn.xitu.io/2018/6/17/1640c7f6e32c21c3?w=620&h=172&f=png&s=80063)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 注意：
 
@@ -50,7 +50,7 @@ categories: js
 
 下面来看忍者秘籍中的栗子：
 
-![](https://user-gold-cdn.xitu.io/2018/6/17/1640ca6240fb3eeb?w=654&h=384&f=png&s=103797)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 让我们看看这里发生了什么事情：
 
@@ -134,7 +134,7 @@ so:**我们期望在第10毫秒处执行的`setTimeout`处理程序，最终会�
  
 如果喜欢本文的话，欢迎关注我的订阅号，漫漫技术路，期待未来共同学习成长。
 
-![](https://user-gold-cdn.xitu.io/2018/5/1/1631b6f52f7e7015?w=344&h=344&f=jpeg&s=8317)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
  
  以上2018.6.17
  

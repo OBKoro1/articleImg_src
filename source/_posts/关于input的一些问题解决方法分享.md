@@ -9,7 +9,7 @@ tags:
 categories: js
 ---
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fr8z5luzpsj308m08sgmv.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ## 前言
 
@@ -37,7 +37,7 @@ input输入框是通过`position:fixed`一直放在页面底部，当点击input
 
 当时这个问题是去年在ios中遇到的，在最新版的ios系统中，貌似解决了这个bug，但是为了向下兼容以及防止其他其他机型也出现这个问题，大家可以稍微记一下这个解决方法。
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fr8jf4on3cj30ga0suwfi.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 在解决这个问题的时候，有试过下面这种方法:
 
@@ -89,19 +89,19 @@ ps:之前拿微信用户名的时候，有些人可能在微信昵称上面就�
 
 在使用`textarea `标签输入多行文本的时候，如果没有对多行文本显示处理，会导致没有换行的情况,就比如下面这种情况，用户在`textarea`是有换行的。
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fr8nibgks0j30bo0ertc3.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### Css属性:[white-space](http://www.w3school.com.cn/cssref/pr_text_white-space.asp)
 
 white-space 属性用于设置如何处理元素内的空白，其中包括空白符和换行符。
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fr8ntg3it2j30h106o3yu.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 只要在**显示内容的地方将该属性设置为`white-space: pre-line`或者`white-space:pre-wrap`，多行文本就可以换行了**。
 
 #### 设置之后，显示效果：
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1frbajugivgj30bj0e1q5g.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 ---
@@ -159,7 +159,7 @@ Vue为监听键盘事件，提供了[按键修饰符](https://cn.vuejs.org/v2/gu
  
 如果喜欢本文的话，可以关注一下我刚开的订阅号，漫漫技术路，期待未来共同学习成长。
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fr8oubn0d3j309k09k3yg.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
  
  以上2018.5.12
  

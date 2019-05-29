@@ -33,7 +33,7 @@ categories: vue-cli
       },
     },
 
-![](https://user-gold-cdn.xitu.io/2017/10/31/3af73c621b7523aa0f3a2fd95d1bd38c)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 设置好了之后，当你在项目中要调用`http://47.95.xxx.246:8080`这个服务器里面的接口，可以直接用`/api`代替服务器地址。
 
@@ -68,7 +68,7 @@ categories: vue-cli
 
 封装的时候，我通常喜欢把请求抽象成三个文件，文件位置放在src中，只要你能引用到，就没问题，如下图所示：
 
-![](https://user-gold-cdn.xitu.io/2017/11/4/0eaae692ac8801448a0a7300206d6144)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 创建三个.js文件，里面我都很认真的注释了，我就直接贴图片了，在文末我把这三个文件的地址发出来，需要的小伙伴自取。
@@ -76,20 +76,20 @@ categories: vue-cli
 fetch.js：
 
 
-![](https://user-gold-cdn.xitu.io/2017/11/5/3cd9e9f1ebe11929f940d567870b4ec9)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 url.js:
 
-![](https://user-gold-cdn.xitu.io/2017/11/5/f70bfc90db9cb1c40725e179efbd4ab5)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 api.js
 
 
-![](https://user-gold-cdn.xitu.io/2017/11/5/250690aa2ca666b6ef48f69483731ae0)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 在组件里面如何使用接口：
 
-![](https://user-gold-cdn.xitu.io/2017/11/5/2ba68f2fad37c0285aeb0ba9e6e86a1e)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 封装axios文件地址在这里：[传送门](https://github.com/OBKoro1/article-demo/tree/master/2017/axios)
 

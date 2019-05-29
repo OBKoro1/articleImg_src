@@ -30,7 +30,7 @@ vue路由有一个[HTML5 History 模式](https://router.vuejs.org/zh-cn/essentia
         http://yoursite.com/#/a/b  //hash模式
         http://yoursite.com/a/b  //history模式
 2. 可以使用vue-router的[滚动行为](https://router.vuejs.org/zh-cn/advanced/scroll-behavior.html)，这个用来记忆进入其他页面之前的位置非常好用，配置一下就可以直接使用了，前提是开启histroy模式。
-![](https://user-gold-cdn.xitu.io/2017/12/24/160885359af4ff1e?w=1062&h=271&f=png&s=35110)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 3. 类似[项目引入微信js-sdk](http://obkoro1.com/2017/12/16/vue-%E9%A1%B9%E7%9B%AE%E5%A6%82%E4%BD%95%E5%BC%95%E5%85%A5%E5%BE%AE%E4%BF%A1sdk%EF%BC%8C%E4%BD%BF%E7%94%A8%E5%BE%AE%E4%BF%A1%E5%88%86%E4%BA%AB%E6%8E%A5%E5%8F%A3/)的时候，一些操作是对url是有要求，url不能带上'#'，如果没有开启histroy模式，很可能会导致问题。
 
@@ -44,7 +44,7 @@ vue路由有一个[HTML5 History 模式](https://router.vuejs.org/zh-cn/essentia
 
 **在hash模式下面，直接打包的话，会导致找不到css、js和图片资源**，然后经过百度之后，做出了如下截图的配置操作，更改`assetsPublicPath：'/'`为 `assetsPublicPath：'./'`
 
-![](https://user-gold-cdn.xitu.io/2017/12/24/16088625b417b4ac?w=872&h=382&f=png&s=43320)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 在hash模式下，像上面那么配置就没有问题了。当时我还以为vue-cli配置有问题，实际上，人家才没有问题呢，是我们自己没有开启history模式的问题。
 

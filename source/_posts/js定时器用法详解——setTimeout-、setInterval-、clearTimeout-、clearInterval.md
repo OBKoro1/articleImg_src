@@ -17,7 +17,7 @@ categories: js
 
 ### 倒计时跳转实现demo：
 
-![里面也有实时显示时间的方法。](https://dn-mhke0kuv.qbox.me/c80c87f943e1ca56de5f.gif)
+![里面也有实时显示时间的方法。](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### js定时器：
 
@@ -57,11 +57,11 @@ setInterval（）：setInterval(code,millisec[,"lang"])
 
 ### clearTimeout（）取消由setTimeout() 方法设置的 timeout。
 
-![](https://dn-mhke0kuv.qbox.me/a8470e43082a064424f8)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### clearInterval() ，这个函数只有一个作用，就是暂停setInterval()调用函数。
 
-![](https://dn-mhke0kuv.qbox.me/0474fc212be6107c7c4b)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 参数id_of_settimeout的意思是：
 
@@ -105,7 +105,7 @@ function run(){
 
 ### 菜鸟教程也有一个demo：
 
-![](https://dn-mhke0kuv.qbox.me/73b6c1d56121335f3a97.gif)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 这也是一篇文章，写的听不错的，推荐一波！
 

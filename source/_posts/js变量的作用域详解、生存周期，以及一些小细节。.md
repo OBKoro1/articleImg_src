@@ -108,7 +108,7 @@ text1();
 这个作用域链为：
 
 
-![只是把函数的名字改了，图方便](https://dn-mhke0kuv.qbox.me/323770f94a8ee79c4231)
+![只是把函数的名字改了，图方便](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ps：**函数参数也被当做变量**来对待，因此其访问规则与执行函数中的其他变量相同。
 

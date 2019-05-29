@@ -19,9 +19,9 @@ categories: 工具类
 
 1.选择“窗口”——把“信息”，“图层”，“历史记录”，“颜色”面板打开，其他的可以先关闭了，在切图的工作中其他的基本用不到，这个很简单的，**打几个勾**就可以了，如下图所示：
 
-![](https://dn-mhke0kuv.qbox.me/89cef91895c00ccbd2ea)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
-![工作区的内容](https://dn-mhke0kuv.qbox.me/c85a209bf817f02ac39e)
+![工作区的内容](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 2.调整好面板之后，选择“窗口”——“工作区”——“新建工作区”，将当前的工作布局保存起来，并命个名，之后下次打开的时候就会直接出现你调整好的工作布局，否则的话你每次重新打开ps的时候都要重新设置。
 
@@ -29,15 +29,15 @@ ps：就算有别人弄乱了你的面板也可以直接通过“窗口”——
 
 设置**标尺坐标**
 
-![](https://dn-mhke0kuv.qbox.me/4273c80a70dccbb51ba6)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
-![](https://dn-mhke0kuv.qbox.me/a9ae65266bcd6793f1e1)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 操作gif：
 
 
-![](https://dn-mhke0kuv.qbox.me/7f794fe00e8cb5b15524.gif)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 还有其他的一些设置：
 
@@ -54,24 +54,24 @@ ps界面中有菜单栏、属性栏、工具栏、面板、工作区：
 
 使用什么方式：下面弄了一个矩形选择框的例子，如果想要更精确的话，直接使用标尺工具也可以。
 
-![](https://dn-mhke0kuv.qbox.me/0e589c18b31e88eb8941)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 ### 测量宽高的两种方式：
 标尺测量的方法：
-![](https://dn-mhke0kuv.qbox.me/950afe0f35662c716790)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 矩形选择框测量的方法：
-![](https://dn-mhke0kuv.qbox.me/787ca96c614a53ba2517)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 颜色取色技巧：
 
 QQ截图的方式：
 截图的时候，鼠标移动到哪里，下面就有一个rgb。（在ps中也是一样，鼠标移动信息栏就会有对应的rgb）
-![](https://dn-mhke0kuv.qbox.me/aa11e9ec142477e27e88)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 ps拾色器获得 ：
 
-![](https://dn-mhke0kuv.qbox.me/37106a330c767e769857)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
-![](https://dn-mhke0kuv.qbox.me/92e3ad02c371640310cd)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 ### 注意

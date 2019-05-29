@@ -4,7 +4,7 @@ date: 2018-09-09 17:53:00
 tags:
 ---
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fv3fw5fctzj30hi0bnt8y.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ## 前言：
 
@@ -30,9 +30,9 @@ VuePress是尤大为了支持 Vue 及其子项目的文档需求而写的一个�
 
 可能你会搭建出一个类似这样的[文档](http://obkoro1.com/web_accumulate/)：
 
-![](https://user-gold-cdn.xitu.io/2018/9/8/165b88bde5ddd420?w=3334&h=1740&f=jpeg&s=358566)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
-![](https://user-gold-cdn.xitu.io/2018/9/8/165b88b39960911b?w=3328&h=1888&f=jpeg&s=434392)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ---
 
@@ -182,7 +182,7 @@ build生成静态的HTML文件,默认会在 `.vuepress/dist` 文件夹下
 
 ### 导航栏配置：
 
-![](https://user-gold-cdn.xitu.io/2018/9/9/165bd71b0c38b87f?w=1246&h=346&f=jpeg&s=40945)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
     module.exports = {
       themeConfig: {
@@ -259,12 +259,12 @@ build生成静态的HTML文件,默认会在 `.vuepress/dist` 文件夹下
 
 并且这样也会让我们的代码高亮显示(下图第一个没有高亮，第二个有高亮)，阅读体验更好：
 
-![](https://user-gold-cdn.xitu.io/2018/9/9/165bd98ebe2f65b3?w=1740&h=746&f=png&s=139253)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 自定义容器了解一下：
 
 
-![](https://user-gold-cdn.xitu.io/2018/9/9/165bda20ddcbd209?w=1566&h=700&f=png&s=47920)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 **更改标题：**
 
@@ -276,7 +276,7 @@ build生成静态的HTML文件,默认会在 `.vuepress/dist` 文件夹下
 
 ### 支持Emoji
 
-![](https://user-gold-cdn.xitu.io/2018/9/9/165bdaa634c0839d?w=1604&h=506&f=png&s=33035)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 文档中只提了支持Emoji,我在GitHub上找到了Emoji的[列表](https://gist.github.com/rxaviers/7360908)，分享一下。
 

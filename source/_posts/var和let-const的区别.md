@@ -6,7 +6,7 @@ tags:
 categories: ES6
 ---
 
-![](https://user-gold-cdn.xitu.io/2019/1/1/16808482225767e3?imageView2/2/w/480/h/480/q/85/interlace/1)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 `let`和`const`是 ES6 新增的命令，用于声明变量，这两个命令跟 ES5 的`var`有许多不同，并且`let`和`const`也有一些细微的不同，再认真阅读了阮一峰老师的[文档](http://es6.ruanyifeng.com/#docs/let)后，发现还是有一些不知道的细节...
 

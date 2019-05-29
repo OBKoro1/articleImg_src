@@ -13,7 +13,7 @@ categories: jQuery
 最终实现的效果：
 --
 
-![](https://dn-mhke0kuv.qbox.me/c4f72f1e1ae450c6b3ef)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 验证码效果
 

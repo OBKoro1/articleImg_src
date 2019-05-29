@@ -13,7 +13,7 @@ categories: css
 
 ### 最终效果：
 
-![文章下面有demo链接](https://dn-mhke0kuv.qbox.me/a55ee3f7972d106aa085)
+![文章下面有demo链接](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 如何使用这些属性？
 用法很简单，如下所示：
@@ -27,8 +27,8 @@ categories: css
 input type="range"样式修改：
 ---
 
-![滑块的默认样式](https://dn-mhke0kuv.qbox.me/e1a2344d909082c1646d)
-![滑块修改后的实现效果](https://dn-mhke0kuv.qbox.me/e34fb2c8622acdc68f79)
+![滑块的默认样式](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
+![滑块修改后的实现效果](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### html content
 
@@ -76,8 +76,8 @@ input type="range"样式修改：
 input type="radio"修改默认样式
 ---
 
-![按钮的默认样式](https://dn-mhke0kuv.qbox.me/8a473392afc4c904a8af)
-![radio修改后的实现效果](https://dn-mhke0kuv.qbox.me/fddc27c19c39b6e3068b)
+![按钮的默认样式](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
+![radio修改后的实现效果](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### html content
 
@@ -142,8 +142,8 @@ input type="radio"修改默认样式
 select修改默认样式
 ---
 
-![选择框的默认初始样式](https://dn-mhke0kuv.qbox.me/5a226ede690f8b9a9a56)
-![select修改后的实现效果](https://dn-mhke0kuv.qbox.me/bd148502090aea355bdd)### html cantent
+![选择框的默认初始样式](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
+![select修改后的实现效果](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)### html cantent
 
 ````
 <div>

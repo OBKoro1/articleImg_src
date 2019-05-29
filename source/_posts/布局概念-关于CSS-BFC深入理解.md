@@ -70,7 +70,7 @@ BFC 可以简单的理解为**某个元素的一个 CSS 属性**，只不过这�
 
 上文定义中提到过的块级盒：block-level box，在这里解析一波：
 
-![这个就是我们平常操作盒子的组成](https://dn-mhke0kuv.qbox.me/b80801d8707be24ecbc0)
+![这个就是我们平常操作盒子的组成](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 我们平常说的盒子是由margin、border、padding、content组成的，实际上每种类型的四条边定义了一个盒子，分别是分别是**content box、padding box、border box、margin box**，这四种类型的盒子一直存在，即使他们的值为0.决定块盒在包含块中与相邻块盒的垂直间距的便是margin-box。
 
@@ -80,7 +80,7 @@ BFC 可以简单的理解为**某个元素的一个 CSS 属性**，只不过这�
 
 ### BFC布局规则2：Box垂直方向的距离由margin决定。属于同一个BFC的两个相邻Box的margin会发生重叠。
 
-![](https://dn-mhke0kuv.qbox.me/6b0fc0e3d34f94875d35.gif)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 上文提到过，决定块盒在包含块中与相邻块盒的垂直间距的便是margin-box。，上面的栗子就是这种情况。
 
@@ -123,7 +123,7 @@ BFC 可以简单的理解为**某个元素的一个 CSS 属性**，只不过这�
 ### 这里有一个网址可以在线演示，通过演示，可以更直观一点：
 
 
-![这里面也是一篇好文章，关于BFC的](https://dn-mhke0kuv.qbox.me/6daeb3cbf5f82d1f6db8.gif)
+![这里面也是一篇好文章，关于BFC的](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 链接地址：http://www.cnblogs.com/xiaohuochai/p/5248536.html
 
@@ -145,7 +145,7 @@ BFC 可以简单的理解为**某个元素的一个 CSS 属性**，只不过这�
 
 **清除浮动原理：**触发父div的BFC属性，使下面的子div都**处在父div的同一个BFC区域之内**，此时已成功清除浮动。
 
-![](https://dn-mhke0kuv.qbox.me/dfe63a3d19cae8adf5fa.gif)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 还可以向同一个方向浮动来达到清除浮动的目的，清除浮动的原理是两个div都位于同一个浮动的BFC区域之中。
 
@@ -175,12 +175,12 @@ BFC 可以简单的理解为**某个元素的一个 CSS 属性**，只不过这�
 ````
 上面aside盒子有一个浮动属性，覆盖了main盒子的内容，main盒子没有清除aside盒子的浮动。只做了一个动作，就是**触发自身的BFC**，然后就**不再被aside盒子覆盖**了。所以：**BFC的区域不会与float box重叠**。
 
-![](https://dn-mhke0kuv.qbox.me/0e2c7b710c4a13111120.gif)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### BFC作用：自适应两栏布局。
 
 
-![](https://dn-mhke0kuv.qbox.me/304255779293ba4c2082.gif)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 还是上面的代码，此时BFC的区域不会与float box重叠，因此**会根据包含块（父div）的宽度，和aside的宽度，自适应宽度。**
 
@@ -204,7 +204,7 @@ IE 作为浏览器中的奇葩，当然不可能按部就班的支持 BFC 标准
             float: left;
         }
 ````
-![](https://dn-mhke0kuv.qbox.me/216207666aa8bef15115)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ~~当我使用上面的属性，再加上一个没有属性的p或者span标签，就发现两个子div的float属性自动被清除了，这是因为span或者p这类文本自带一个BFC吗？还是什么？求路过的大神解释。。。~~
 
@@ -212,7 +212,7 @@ IE 作为浏览器中的奇葩，当然不可能按部就班的支持 BFC 标准
 以上是错误的。这里两个div被撑开，是因为父div被p标签撑开了，并不是因为清除浮动的原因，从下面这张图片可以清楚的知道。
 
 
-![](https://dn-mhke0kuv.qbox.me/5f7dc07585ae6c512bb8)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 其实以上的几个例子都体现了BFC布局规则第五条————
@@ -232,7 +232,7 @@ IE 作为浏览器中的奇葩，当然不可能按部就班的支持 BFC 标准
 </div>
 ````
 
-![](https://dn-mhke0kuv.qbox.me/c02b2396d987f4d7439a)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 问题：为什么 div 的左上角被覆盖了，而文本却没有被覆盖，float不是应该跟普通流不在一个层级吗？是因为float属性不生效吗？
 
@@ -244,7 +244,7 @@ IE 作为浏览器中的奇葩，当然不可能按部就班的支持 BFC 标准
 
 float 属性定义元素在哪个方向浮动。以往这个属性总应用于图像，**使文本围绕在图像周围**，不过在 CSS 中，**任何元素都可以浮动**。浮动元素会生成一个块级框，而不论它本身是何种元素。
 
-![](https://dn-mhke0kuv.qbox.me/5994ed11ebc3e4b971db.gif)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 从上图可以看到，float属性确实生效，将float隐藏后，下面还有一个红色的div，这个div是被黑色div所覆盖掉的。**div会被float覆盖，而文本却没有被float覆盖**，是因为**float当初设计的时候**就是为了**使文本围绕在浮动对象的周围**。
 

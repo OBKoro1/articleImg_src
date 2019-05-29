@@ -24,7 +24,7 @@ categories: 小demo
 
 ### 1. 渲染地图
 1. html结构：
-![](https://user-gold-cdn.xitu.io/2018/1/7/160d1149856a3714?w=503&h=727&f=png&s=48024)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
    
         html结构十分简单，只要弄一堆div，来放置地图的class就可以了，我这里初始化了12*9个div，地图里最多九行高度。   
         这些div都是同样大小，地图渲染出来区别的只是颜色的不同。

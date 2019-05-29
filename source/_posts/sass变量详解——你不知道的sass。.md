@@ -13,7 +13,7 @@ categories: sass
 
 #### w3c关于JavaScript 变量的介绍：
 
-![可以去搜一下js 变量](https://dn-mhke0kuv.qbox.me/e18a3d4b81fa5d9a1e77)
+![可以去搜一下js 变量](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 上面一大堆巴拉巴拉的东西，可以先这么理解，把**变量看作一个存放东西的盒子**，可以将钥匙、手机、饮料等物品存放在这个盒子中，也可以在需要的时候**换成**我们想存放的**新物品**，那里面的旧的东西就存不了，只能存一个东西。
 
@@ -76,7 +76,7 @@ $back:#fff,green,red;/*1.多个变量一起声明*/
 ### 关于变量的作用域：
 
 
-![sass里面的代码片段](https://dn-mhke0kuv.qbox.me/b072b62aea4f1e247ce9)
+![sass里面的代码片段](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 ### 解析：
 
 以上是我在sass文件里面做的一个demo，里面分成了三个部分，下面分别给大家解析一下。
@@ -100,7 +100,7 @@ $back:#fff,green,red;/*1.多个变量一起声明*/
 
 代码示例。
 
-![default代码示例1](https://dn-mhke0kuv.qbox.me/ef721a4d9642e82d12c9)
+![default代码示例1](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 解析：
 
@@ -110,7 +110,7 @@ $back:#fff,green,red;/*1.多个变量一起声明*/
 
 4.说明**连续声明两个default也是有效的**，第一个default会被第二个default覆盖。第二个default会被没有声明default的变量覆盖，所以**最终输出的是没有声明default的变量**red。
 
-![default代码示例2](https://dn-mhke0kuv.qbox.me/6060ecebe422a4f6100e)
+![default代码示例2](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 1.这里不解析了，详见注释。
 

@@ -18,7 +18,7 @@ ps零碎知识点：楼主踩过坑了，**引用angular写的话，不能再使
 实现效果：
 --
 
-![](https://dn-mhke0kuv.qbox.me/32d23e28a9dfdc1696a2.gif)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 实现效果
 

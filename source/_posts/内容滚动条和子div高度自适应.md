@@ -11,7 +11,7 @@ categories: css
 先放最终效果（在下面会有demo代码。）：
 
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-afbbb44066dd7c94.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 实现这些效果要怎么做呢？咱一步一步来。
 
@@ -62,19 +62,19 @@ categories: css
 现在界面是这样子的：
 
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-50eb79a5c1a11982.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 现在尝试把html解除注释：
 
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-b92322728420ee2e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 然后浏览器里面变成这样了。。。
 
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-56f5182d46a41d3c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 excuse me？？？说好的滚动条呢？说好的自适应呢？
@@ -84,26 +84,26 @@ excuse me？？？说好的滚动条呢？说好的自适应呢？
 在上面我们已经设置了最大高度和最小高度，因为box1空间不够所以溢出来了。
 
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-41707ab6f5d8ea6c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 overflow属性大家去看下，http://www.w3school.com.cn/cssref/pr_pos_overflow.asp
 知道你们不会去看，所以我又放图片了。。。
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-511618e3abb59bc5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 所以对于这部分我们要隐藏起来。 加个overflow: hidden;变成。
 
-![ ](http://upload-images.jianshu.io/upload_images/5245297-40588fbfc761809c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![ ](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 大家也都注意到了overflow: scroll;这个属性，是的，我们加上去试试。
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-8954ed3927fb04da.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 滚动条是出来了，但是X轴的滚动条是什么鬼？
 所以百度好久的答案，你们有福了！—————overflow-x: hidden;
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-83c6d190bcd5ef35.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 然后我顺便查到上面的简写方式。
 原来用overflow-x: hidden;overflow-y: auto;这两行代码就可以做到！
@@ -133,22 +133,22 @@ overflow属性大家去看下，http://www.w3school.com.cn/cssref/pr_pos_overflo
 额。。。关于这个问题，我只有一个取巧的办法。
 我先放两张图片：
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-95bc8c9258b9b58b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-5af3a22c32a7b3ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ps：这样就算是自适应了吧？
 
 现在的情况是这样子的：
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-8a0dd0f10f28e9b1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 我把他们两个的背景颜色都改成一样的，再来看下：
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-693f95cdf1ffe68c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 这里也是，实际上，他的box就那么大。
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-04460e8aa189b859.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 写这篇花了一个半小时，主要是自己昨天才弄懂的，然后今天做demo 的时候又忘记怎么自适应div了，弄了老半天，然后用F12看昨天的代码才恍然大悟！（其实昨天没真懂，这会是真懂了），写的是真的累，码字不易，望且看且珍惜，给个喜欢吧。

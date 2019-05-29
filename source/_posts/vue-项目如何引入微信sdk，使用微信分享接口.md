@@ -94,7 +94,7 @@ categories: Vue
 #### 我是这么做的：
 
 1. 因为我把axios[包了一层](https://juejin.im/post/59fd982c6fb9a045170490df)，然后把axios接口，在main.js里面挂载到Vue实例。
-![](https://user-gold-cdn.xitu.io/2017/12/16/1605f3933091e9d2?w=535&h=98&f=png&s=18864)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 2. 然后在[全局函数](https://juejin.im/post/59eddbfe6fb9a0450908abb4)里面调用这个接口，然后在每个路由页面的相应组件里面调用这个函数，把当前页面的url以及其他标题、图片什么的传进去。
 
 里面的具体步骤就不说了，最重要的是参考上面的那个流程，函数里面的东西也都是基于那个流程的。

@@ -23,7 +23,7 @@ categories: 读书笔记
 
 ## 正文
 
-![ 封面 ](https://user-gold-cdn.xitu.io/2017/12/31/160ac466f78b83d3?w=600&h=784&f=jpeg&s=53979)
+![ 封面 ](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 第一章-加载和执行
 

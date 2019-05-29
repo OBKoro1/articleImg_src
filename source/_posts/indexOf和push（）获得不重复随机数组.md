@@ -14,7 +14,7 @@ categories: js
   下面是新想的方法：
 **先上效果：**
 
-![随机获得三个box，color](http://upload-images.jianshu.io/upload_images/5245297-765fc9840f7e0be4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![随机获得三个box，color](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
  **页面效果：**每隔一秒换一下随机box和随机颜色，不间断运行。   （下面有链接）
 
 **获取随机box，以及添加到数组里面的js代码**
@@ -52,7 +52,7 @@ function whileRun(){
 
 从这里看不出有什么跟获取随机数有什么关联的地方，但是下面的一句注释，就可以和随机数关联起来：
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-cdc714665e9d4717.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 这是代码：
 ````
  if (num.indexOf(box_dom_num)<0){//随机选择的box看有没有在原先已经添加的数组里面，如果没有，就添加进去，如果有，重新运行函数。

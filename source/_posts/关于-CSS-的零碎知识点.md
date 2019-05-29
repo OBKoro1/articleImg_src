@@ -11,7 +11,7 @@ categories: css
 
 ### 1.scss编译css文件使用中文注释出现乱码：
 
-![](https://dn-mhke0kuv.qbox.me/428897e0e0f518229d87)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 在文件开头部分加上：@charset "UTF-8";
 
@@ -30,10 +30,10 @@ maxlength 属性与 input type="text" 或 input type="password" 配合使用。
 
 ~~这里所说的以字符个数计算，中文是占两个字符，字母和数字都是占一个字符，但是我实际使用过程中，input里面**无论中文，英文字母，数字**，都可以输入**相同长度**，也就是说这是一个bug？？？~~
 
-![我知道没有图你们是不会信的](https://dn-mhke0kuv.qbox.me/bfbe366aca62322e9c6e)
+![我知道没有图你们是不会信的](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
-![](https://dn-mhke0kuv.qbox.me/a9ab1b62da1421aa4596)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 上面是我先前的理解，经过评论区朋友的指点，发现原先的理解事错的，回来更正一下。
 
@@ -53,14 +53,14 @@ ps：其实我也不知道有什么用，可能有些场景对这些规定的比
 
 background：url center no-repeat；只要在这里加个center就可以使背景图片垂直水平居中了
 
-![](https://dn-mhke0kuv.qbox.me/82d5accda1696d48355a)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 实际上这里是用了 **background-position**属性。
 
 #### background-position定义和用法
 
 
-![太多了，放个图片自己看一看。](https://dn-mhke0kuv.qbox.me/1b676858cbca83c8e902)
+![太多了，放个图片自己看一看。](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 ### 4.css样式最好不要把宽度定死了，这样会导致页面缩小的时候超出范围。
@@ -77,7 +77,7 @@ letter-spacing
 
 所有浏览器都支持 letter-spacing 属性。
 
-![](https://dn-mhke0kuv.qbox.me/7fbf9ab532614cf41346)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 蛮看一下，稍微记下，这个还是蛮偏的
 

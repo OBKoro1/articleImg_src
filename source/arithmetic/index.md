@@ -16,7 +16,7 @@ comments: false
 
 **文档长这样：**
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fvicymvh7nj30s30eg3z8.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 觉得还不错的话，点一个[Star](https://github.com/OBKoro1/Brush_algorithm) ⭐️ 吧~
 

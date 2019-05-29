@@ -8,7 +8,7 @@ tags:
 - 团队协作
 ---
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fvbhpu4dx8j30r00i0jwg.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ## 前言：
 
@@ -35,11 +35,11 @@ tags:
 
 如图安装`EsLint`插件：
 
-![](https://user-gold-cdn.xitu.io/2018/9/16/165e132647eca15f?w=1132&h=559&f=png&s=205082)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 2.为项目安装`EsLint`包：
 
-![](https://user-gold-cdn.xitu.io/2018/9/16/165e136abe3b1feb?w=479&h=423&f=png&s=95954)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 注意要安装在开发环境上，还有就是如果你使用的是脚手架的话，选了Eslint选项，会自带这些包。
 
@@ -76,7 +76,7 @@ module.exports = {
 
 点开文件，你可能会看到如下报错，无需一个一个去改，只要保存一下文件，就可以自动修复这些代码格式上的问题了。
 
-![](https://user-gold-cdn.xitu.io/2018/9/16/165e151df42747c4?w=474&h=335&f=gif&s=22430)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 **注意：**
 
@@ -93,7 +93,7 @@ module.exports = {
 
     "lint": "eslint --ext .js,.vue src --fix"
 
-![](https://user-gold-cdn.xitu.io/2018/9/16/165e1561a9b92866?w=694&h=111&f=png&s=33155)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 `--ext`后面跟上的`.js`、`.vue`是你要检测文件的后缀，`.vue`后面的`src`是要检测的哪个目录下面的文件。
 

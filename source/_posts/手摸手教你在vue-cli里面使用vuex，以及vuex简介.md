@@ -23,7 +23,7 @@ categories: Vue
 
 ### 在src目录下创建文件夹vuex
     
-![文件夹包含文件](https://user-gold-cdn.xitu.io/2017/12/9/1603a90a59fc5676?w=363&h=335&f=png&s=16366)
+![文件夹包含文件](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 该文件夹包含以上文件，创建好了之后，我们一个一个文件来说里面都有什么东西。
 
@@ -102,13 +102,13 @@ categories: Vue
 
 ### 引入main.js
 
-![](https://user-gold-cdn.xitu.io/2017/12/9/1603ac7ca073cb0e?w=765&h=427&f=png&s=49028)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 上面的vuex文件夹只是搭建一个store，但是这样还不够，我们还要在项目里面使用这个。引用到main.js，如图所示。
 
 ### 组件中如何使用。
 
-![](https://user-gold-cdn.xitu.io/2017/12/9/1603acd24b3c1906?w=773&h=875&f=png&s=97062)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 使用的话就是像上面那么使用，本文只是一个简单的示例，还有更多骚操作，等大家上手之后再慢慢摸索咯。
 
@@ -126,13 +126,13 @@ vuex主要是用来**复杂项目之间的组件通信功能**，简单的项目
 
 通过统一的数据中心store维护状态数据，每个组件进行更新的时候，通知数据中心store。再由stroe将共享的状态，触发每一个调用它的组件的更新。
 
-![store触发组件更新](https://user-gold-cdn.xitu.io/2017/12/9/1603ae6d33eae6db?w=554&h=570&f=png&s=153482)
+![store触发组件更新](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### vuex的工作流程
 
 大家先仔细看看下面这张图，理解他的工作机制。
 
-![](https://user-gold-cdn.xitu.io/2017/12/9/1603ae858f7da6cd?w=789&h=530&f=png&s=148466)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 1. 在vue组件里面，通过dispatch来触发actions提交修改数据的操作。
 2. 然后再通过actions的commit来触发mutations来修改数据。

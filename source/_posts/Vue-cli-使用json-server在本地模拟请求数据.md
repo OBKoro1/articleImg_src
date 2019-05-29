@@ -42,7 +42,7 @@ categories: 工具类
 
 如图所示：
 
-![](https://user-gold-cdn.xitu.io/2017/10/31/1cd6d748943c968c65eb135b322c6f0b)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 请求接口代理：
 
@@ -58,7 +58,7 @@ categories: 工具类
 
 如下图所示：
 
-![](https://user-gold-cdn.xitu.io/2017/10/31/3af73c621b7523aa0f3a2fd95d1bd38c)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### npm run dev启动项目可以访问到你的json文件：
 
@@ -66,10 +66,10 @@ categories: 工具类
 
 jsonserver服务器：
 
-![jsonserver服务器](https://user-gold-cdn.xitu.io/2017/10/31/50baa471e48b88d8dc595e0dc8cd60b7)
+![jsonserver服务器](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 json数据：
-![json数据](https://user-gold-cdn.xitu.io/2017/10/31/cd31ad94fb979187133c4d1c8f5d9572)
+![json数据](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ## axios请求json数据：
 

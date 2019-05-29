@@ -21,7 +21,7 @@ categories: Vue
 
 ###  组件最后实现的效果
 
-![](https://user-gold-cdn.xitu.io/2018/4/21/162e6f9251c7c18f?w=650&h=1141&f=png&s=374719)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ## 实现步骤
 
@@ -232,7 +232,7 @@ Vue中在子组件往父组件传参，很多都是通过`$emit`来触发父组�
 
 可以用弹窗组件实现下列这种信息展示，或者事件交互：
  
- ![](https://user-gold-cdn.xitu.io/2018/4/21/162e7a7af2e0effa?w=402&h=728&f=png&s=140506)
+ ![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### [弹窗组件代码](https://github.com/OBKoro1/web_accumulate/blob/d6b599ca22d8656d3f31f80bffa976fac36d2d75/example/dialogComponent.vue)
 

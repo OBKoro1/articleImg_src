@@ -3,33 +3,36 @@
  * @Author: OBKoro1
  * @Created_time: 2019-05-28 17:21:41
  * @LastEditors: OBKoro1
- * @LastEditTime: 2019-05-29 15:30:28
- * @Description: 读取本地图片，更改他们的url。
+ * @LastEditTime: 2019-05-29 17:32:16
+ * @Description: 读取markdown地址，更改他们的url。
+ * 建议将项目备份一下，以免操作失误导致数据丢失
  */
 
 const fs = require('fs'); // 文件模块
 var request = require('request');
-
-// TODO:下载
-console.log(process.argv, 'process.argv[2]')
-process.argv.forEach(item => {
-    console.log('111', item, typeof item)
-})
-
-let imgList = [] // img集合
-let imgUrl = 'http://ww1.sinaimg.cn/large/'; // 要被替换的图片地址
 const reg = /!\[(.*)\]\((.*?)\)/g; // 提取markdown图片语法
 var async = require("async");
+let imgList = [] // img集合
+
+// TODO: 变量
+const imgUrl = 'https://github.com/OBKoro1/articleImg_src/blob/master/dist/'; // 要被替换的图片地址
+const newUrl = 'https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/' // 替换成这个地址
+const addEnd = '?raw=true' // 项目地址
+// const newUrl = 'https://baidu.com/src/' // 替换成这个地址
+// const addEnd = '?raw=true' // 可以添加后缀 如github查看图片后缀为: ?raw=true
+const item_src = './source' // 要读取markdown的项目地址
+const down_src = './img_src' // 图片下载地址
+
+
 
 // 提取图片地址
-readFile('./source')
-console.log('图片提取完成', imgList)
-// 下载图片到本地
-downImg()
-// 修改图片地址
-readFile('./source', true)
+// readFile(item_src)
+// 下载图片到本地 => 上传图片到云端，这步建议自己完成
+// downImg()
+// 修改图片地址 TODO: 充分理解后再开启 或者先建两个文件试手
+readFile(item_src, true)
 
-// TODO: 上传图片到云端
+// 上传图片到云端
 
 /**
  * 递归查找文件夹，找到markdown文件的图片语法，
@@ -46,7 +49,7 @@ function readFile(path, replace = false) {
         let isDirectory = fs.statSync(url).isDirectory(); // 判断是否为文件夹
         if (isDirectory) {
             // 递归文件夹
-            return readFile(url)
+            return readFile(url, replace)
         } else {
             if (item.indexOf('.md') !== -1) {
                 // 读取文件
@@ -55,7 +58,15 @@ function readFile(path, replace = false) {
                 while ((res = reg.exec(data)) !== null) {
                     let regUrl = res[2]
                     if (replace) {
-
+                        // 拼接要替换的url
+                        let imgName = regUrl.split(imgUrl)[1]
+                        let replaceUrl = `${newUrl}${imgName}`
+                        // 可以添加后缀 如github查看图片后缀为: ?raw=true
+                        if (addEnd) {
+                            replaceUrl += addEnd
+                        }
+                        // 替换字符串
+                        data = data.replace(regUrl, replaceUrl)
                     } else {
                         // 添加图片到数组
                         if (regUrl.indexOf(imgUrl) !== -1) {
@@ -63,6 +74,13 @@ function readFile(path, replace = false) {
                         }
                     }
                 }
+                // 修改文件
+                if (replace) {
+                    fs.writeFile(url, data, 'utf-8', () => {
+                        console.log('修改成功', url)
+                    })
+                }
+                console.log('图片提取完成', imgList)
             }
         }
     })
@@ -70,6 +88,16 @@ function readFile(path, replace = false) {
 
 // 下载图片
 function downImg() {
+    // 创建文件夹
+    try {
+        let isDirectory = fs.statSync(down_src).isDirectory(); // 判断是否为文件夹
+        if (!isDirectory) {
+            fs.mkdirSync(down_src, { recursive: true });
+        }
+    } catch (err) {
+        fs.mkdirSync(down_src, { recursive: true });
+    }
+
     async.mapSeries(imgList, (httpSrc, callback) => {
         // settimeout等待下载函数创建下载 不需要等下载完毕 是并行
         // 时间充裕的话可以下载函数放进函数中 在回调中调callback
@@ -78,9 +106,7 @@ function downImg() {
             let imgName = httpSrc.split(imgUrl)
             try {
                 if (imgName[1]) {
-                    // TODO: 修改
-                    // TODO: 判断文件夹
-                    downloadPic(httpSrc, `./dist/${imgName[1]}`)
+                    downloadPic(httpSrc, `${down_src}/${imgName[1]}`)
                 }
                 callback(null, httpSrc);
             } catch (err) {
@@ -102,37 +128,3 @@ function downImg() {
         })
     }
 }
-
-
-
-
-
-
-// 执行shell命令
-function myExecSync(cmd) {
-    // 除了该方法直到子进程完全关闭后才返回 执行完毕 返回
-    try {
-        execSync(
-            cmd,
-            {
-                encoding: 'utf8',
-                timeout: 0,
-                maxBuffer: 200 * 1024,
-                killSignal: 'SIGTERM',
-                cwd: null,
-                env: null
-            },
-            function (err, stdout, stderr) {
-                // 进程错误时 回调
-                if (err) {
-                    console.log(`报错:${err}`); // 拦截报错
-                    return;
-                }
-            }
-        );
-    } catch (err) {
-        console.log('执行命令出错:', err);
-    }
-}
-
-console.log(111)

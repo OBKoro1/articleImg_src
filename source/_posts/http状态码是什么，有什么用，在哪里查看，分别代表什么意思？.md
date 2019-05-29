@@ -50,7 +50,7 @@ http状态码的核心作用是Web Server**服务器用来告诉客户端**，�
 
 #### 1.浏览器的F12调试（或者右键检查），network查看Status，如下图所示，status就是http返回的状态码。
 
-![浏览器如何查看状态码](https://dn-mhke0kuv.qbox.me/1e5301068afae71adca2)
+![浏览器如何查看状态码](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 2.各种在线输入网址查询HTTP状态的工具：
 
@@ -60,7 +60,7 @@ http状态码的核心作用是Web Server**服务器用来告诉客户端**，�
 
 其他的应该还有很多，可以自己去搜索一下。
 
-![站长工具查询http状态码](https://dn-mhke0kuv.qbox.me/d93660054c77ef0faadd)
+![站长工具查询http状态码](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 状态码的变化转换：
 

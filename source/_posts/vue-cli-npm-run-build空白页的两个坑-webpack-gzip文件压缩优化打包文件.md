@@ -32,13 +32,13 @@ npm run build 是vue-cli用来打包项目的命令行，本文是关于vue-cli�
 
 ### 打包出来的文件
 
-![vue-cli项目文件打包位置](https://user-gold-cdn.xitu.io/2017/9/26/0324afbbfce9a0baf513417e07292c6b)
+![vue-cli项目文件打包位置](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 第一个坑：文件引用路径
 
 现在项目我们什么都没动，是初始化之后直接打包的状态，打开dist/index.htmnl文件整个网页都是一片空白的。
 
-![](https://user-gold-cdn.xitu.io/2017/9/26/609c0d3e25e99744930d81e892156f0b)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 打开调试，发现有一排报错说是：`不能加载到资源`，后面就发现**路径的问题**，仔细看上面再看上面加载的css的引用路径，这里是有问题的。
 
@@ -60,11 +60,11 @@ assetsPublicPath属性作用是指定编译发布的根目录，**'/'指的是�
 
 打开打包文件：
 
-![重新打开index.html](https://user-gold-cdn.xitu.io/2017/9/26/f4afd954cdb3dc6702dbae4a8066441a)
+![重新打开index.html](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 错误原因：
 
-![dist文件夹](https://user-gold-cdn.xitu.io/2017/9/26/bfc1ccd0318c288369a1d5d914ba16b6)
+![dist文件夹](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 打包出来所有的文件都会放在dist的static文件夹下面，index.html要加载文件，那么问题来了，'/'指的是项目的根目录 ，'./'指的是当前目录。要选哪个？当然选择原谅她了。
 
@@ -72,17 +72,17 @@ assetsPublicPath属性作用是指定编译发布的根目录，**'/'指的是�
 
 这个坑是当你使用了路由之后，**在没有后端配合的情况下就手贱打开路由history模式的时候**，打包出来的文件也会是一片空白的情况，很多人踩这个坑的时候花了很多时间，网上的教程基本上都是说的第一个坑，这个坑很少有人提起。
 
-![图片出自vue-router文档](https://user-gold-cdn.xitu.io/2017/10/9/bafef77c3943e031154d127964508072)
+![图片出自vue-router文档](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 打包之前的样子：
 
 这里我弄了个示例，因为是刚创建的项目没有其他因素干扰，当你打开路由的history模式之后，开发的时候一切正常
 
-![打包之前的路由](https://user-gold-cdn.xitu.io/2017/9/26/28200b7f45b8aac0897f62124c41eec1)
+![打包之前的路由](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 打包之后的样子：
 
-![打包之后路径也是对的，但是页面一片空白](https://user-gold-cdn.xitu.io/2017/9/26/f9c56757612f1dd5703fbf0fa09fb155)
+![打包之后路径也是对的，但是页面一片空白](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 #### 解决方式：
 
@@ -98,7 +98,7 @@ assetsPublicPath属性作用是指定编译发布的根目录，**'/'指的是�
 
 #### 设置方法：
 
-![](https://user-gold-cdn.xitu.io/2017/10/9/1f95faabfb7463e1dce708f046960398)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 这里其实是webpack自带的一个优化打包的方法，打开这个配置后如果没有下载那个插件，会提示你下载，下载就好了。
 
@@ -106,7 +106,7 @@ assetsPublicPath属性作用是指定编译发布的根目录，**'/'指的是�
 
 打开这个配置会之后对整体的打包体积也就是dist文件夹并没有太大的变化。下图来看看他的压缩率以及对加载的提升，可以说是非常大且明显的，大家可以自己试一下就知道多好用了。
 
-![](https://user-gold-cdn.xitu.io/2017/10/9/7fd308bb2a27aba49009455266da73d3)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 后话

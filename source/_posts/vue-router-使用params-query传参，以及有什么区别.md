@@ -27,12 +27,12 @@ router.js:
 
 路由设置这里，**当你使用params方法传参的时候，要在路由后面加参数名，**并且传参的时候，参数名要跟路由后面设置的参数名对应。使用query方法，就没有这种限制，直接在跳转里面用就可以。
 
-![](https://user-gold-cdn.xitu.io/2017/11/12/5a6149e063affb11b03b105c0b20a76c)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 **注意：**如果路由上面不写参数，也是可以传过去的，但不会在url上面显示出你的参数，并且当你跳到别的页面或者刷新页面的时候**参数会丢失**（如下图所示），那依赖这个参数的http请求或者其他操作就会失败。
 
 
-![](https://user-gold-cdn.xitu.io/2017/11/12/b26ef6ec935a56ee5ab1fe354b888178)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 注意看上面的路由参数，id这个参数是我们有设置在路由上面的，id2我没有设置在路由里面，所以刷新之后id2就不见了，在项目中，我们总不可能要求用户不能刷新吧。
 
@@ -93,7 +93,7 @@ router.js:
 
 ### params传参和query传参有什么区别：
 
-![](https://user-gold-cdn.xitu.io/2017/11/12/5327acc0b3dcc403b4316ce00c808221)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 1、params是路由的一部分,必须要有。query是拼接在url后面的参数，没有也没关系。
 

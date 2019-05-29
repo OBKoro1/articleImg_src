@@ -73,7 +73,7 @@ categories: js
     var t3="2017-08-18 04:56:38";
     timeFn(t3);
 
-![demo时间差数据截图](https://user-gold-cdn.xitu.io/2017/10/15/3ffd4a7df082edd1f1ed6e413cfc35eb)
+![demo时间差数据截图](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 不成熟的计算月、年:
 

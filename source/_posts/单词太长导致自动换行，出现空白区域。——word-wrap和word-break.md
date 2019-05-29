@@ -11,15 +11,15 @@ categories: css
 
 ### 应用场景：
 
-![属性的应用场景](https://dn-mhke0kuv.qbox.me/7681b3ea25f4259b7599)
+![属性的应用场景](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### word-wrap和word-break是什么？
 
 在mozilla的官网上找到如下的解释：
 
-![word-wrap的英文解释](https://dn-mhke0kuv.qbox.me/cd518bb76aa131d9800c)
+![word-wrap的英文解释](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
-![word-break的英文解释](https://dn-mhke0kuv.qbox.me/01c76f87a127eb7b25fd)
+![word-break的英文解释](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 经过翻译：**word-wrap:**
 
@@ -31,24 +31,24 @@ css的 word-break 属性用来标明**怎么样**进行单词内的**断句**。
 
 ### 何谓单词内断句？
 
-![](https://dn-mhke0kuv.qbox.me/619c1577018279a50a70)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 这个单词没有发生单词内断句的情况，这个单词太长了，溢出了容器的范围。
 
 下面是发生了单词内断句的情况实例：
 
-![](https://dn-mhke0kuv.qbox.me/3f3a3b26f2b49ab81aa3)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 这里面分别使用了word-wrap：break-word;和word-break:break-all;这里可以看到，效果是一样的，下面再说说他们的区别。
 
 ### word-wrap的属性介绍
 
 
-![w3c：word-wrap](https://dn-mhke0kuv.qbox.me/b55595378c65b88dc2b9)
+![w3c：word-wrap](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### word-wrap的浏览器支持情况：
 
-![所有浏览器都支持](https://dn-mhke0kuv.qbox.me/e701f4d37b0015b5538e)
+![所有浏览器都支持](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 语法：
 
@@ -64,7 +64,7 @@ normal就是大家平常见得最多的正常的换行规则，break-word如果�
 
 
 
-![](https://dn-mhke0kuv.qbox.me/eeea7fe4114814f3b60a)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 上图就是：一行中**有可以换行的标点时就换行**，**实在没有**可以换行的地方时，**才在单词中间换行**
@@ -73,10 +73,10 @@ normal就是大家平常见得最多的正常的换行规则，break-word如果�
 
 ### word-break属性的属性介绍：
 
-![w3c上关于word-break属性的介绍](https://dn-mhke0kuv.qbox.me/29d4016953d5b7e462a2)
+![w3c上关于word-break属性的介绍](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 浏览器支持：
-![](https://dn-mhke0kuv.qbox.me/c36fd784b852063b1144)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 除了opera不支持以外，其他都支持（火狐也从不支持改为支持了）!
 
@@ -97,7 +97,7 @@ word-break: keep-all;
 **keep-all**
 不允许CJK(Chinese/Japanese/Korean)文本中的单词换行，只能在半角空格或连字符处换行。非CJK文本的行为实际上和normal一致。(**一致性可看下图的demo效果**)
 
-![](https://dn-mhke0kuv.qbox.me/3af903320a9cac09f9d5)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### word-break:break-all和word-wrap:break-word之间的区别：
 

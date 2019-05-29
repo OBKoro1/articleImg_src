@@ -45,7 +45,7 @@ categories: vue-cli
 
 说了图片就正好再提一下vue-cli的一个图片有关的配置，下图这个配置的意思是：在10000b 的图片以下进行base64转换，所以如果项目中有些比较小的icon就不用再进行图片精灵的处理了
 
-![](https://user-gold-cdn.xitu.io/2017/9/17/a476773456af2f136aa1e1a45da18f9f)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 webpack+vue自定义路径别名
 ---
@@ -74,7 +74,7 @@ vue-cli 用的是webpack，也可以使用webpack自定义别名这个功能，�
 
 这里给’static’赋予了一个地址，那么在程序中引入路径的时候’~static’就直接可以代替路径’../static’，亲测，这里就算多层嵌套也可以成功找到路径。
 
-![示例图片](https://user-gold-cdn.xitu.io/2017/9/18/35d8e67e0a4783aba76fde31412225a4)
+![示例图片](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 
@@ -86,7 +86,7 @@ vue-cli 用的是webpack，也可以使用webpack自定义别名这个功能，�
 
 ### package.json
 
-![](https://user-gold-cdn.xitu.io/2017/9/17/7e9d41302f682760c2eb6cccf5137acf)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 在上图所示位置，我们项目安装的所有的模块依赖都在这个pageage.json文件中，当我们需要整理一波自己的依赖的时候，可以在这个文件里面找有没有现在已经没用的依赖，可以使用命令行``npm remove 模块名字``来删除没用的模块。
 

@@ -8,7 +8,7 @@ tags:
 categories: ES6
 ---
 
-![](https://github.com/OBKoro1/articleImg_src/blob/master/2019/2019_5_20.jpg?raw=true)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 调用栈的英文名叫做Call Stack，大家或多或少是有听过的，但是对于js调用栈的工作方式以及如何在工作中利用这一特性，大部分人可能没有进行过更深入的研究，这块内容可以说对我们前端来说就是所谓的基础知识，咋一看好像用处并没有很大，但掌握好这个知识点，就可以让我们在以后可以走的更远，走的更快！
 
@@ -63,7 +63,7 @@ function multiply(x, y) {
 
 调用栈中的执行步骤如下(删除multiply的步骤被省略了)：
 
-![](https://user-gold-cdn.xitu.io/2019/5/18/16acb4a439190d49?w=1024&h=768&f=png&s=68010)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 **调用侦**：
 
@@ -73,7 +73,7 @@ function multiply(x, y) {
 
 找到一张图片，调用侦：
 
-![](https://user-gold-cdn.xitu.io/2019/5/19/16ace8030a36c8dd?w=326&h=440&f=png&s=50219)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### 调用栈优化内存
 
@@ -171,11 +171,11 @@ function c() {
 ```
 如图所示,点击右侧还能查看代码位置：
 
-![](https://user-gold-cdn.xitu.io/2019/5/20/16ad3f508ab127a9?w=678&h=318&f=png&s=29341)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 2. `bugger`打断点形式，这也是我最喜欢的调试方式：
 
-![](https://user-gold-cdn.xitu.io/2019/5/20/16ad3ff354f2dac3?w=2024&h=1240&f=png&s=339262)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 ## 结语

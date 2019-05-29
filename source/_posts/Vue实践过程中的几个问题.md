@@ -128,7 +128,7 @@ categories: Vue
 
 ### 文档介绍：
 
-![v-once文档介绍](https://user-gold-cdn.xitu.io/2018/1/17/160ffd6c2dcf70e1?w=948&h=716&f=png&s=64938)
+![v-once文档介绍](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 这个api在我看来主要用于那些一次性渲染，并且不会再有操作更改这些渲染的值，这样就可以优化双向绑定的更新性能。
 
@@ -149,7 +149,7 @@ categories: Vue
 
 写到这里想到vue框架还有一个[风格指南](https://cn.vuejs.org/v2/style-guide/)推荐，如下图所示，大家也可以学习一波。
 
-![vue风格指南](https://user-gold-cdn.xitu.io/2018/1/17/160fff0ec0147156?w=1578&h=811&f=png&s=174542)
+![vue风格指南](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ## 小结
 

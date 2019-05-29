@@ -4,7 +4,7 @@ date: 2017-10-10 19:31:16
 comments: false
 ---
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1frhyu07uofj31hc0u0ah3.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 <!-- TODO: hexo next的搜索功能 -->
 
 做为技术路上的学徒，很高兴大家能来到我的博客参观。
@@ -49,7 +49,7 @@ comments: false
 
 **文档长这样：**
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fvicymvh7nj30s30eg3z8.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 * 项目(求Star):
 
@@ -76,6 +76,6 @@ comments: false
 
 微信：
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fsnslyz5pnj309j0cdgm6.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ---

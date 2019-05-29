@@ -7,7 +7,7 @@ tags:
 categories: js
 ---
 
-![](http://ww1.sinaimg.cn/large/005Y4rColy1fxko2ichsjj30xc0g5412.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 我们都知道，JavaScript 是单线程的，在同一时刻只能处理一个任务，我们会通过 setTimeout()、setInterval()、ajax 和事件处理程序等技术模拟“并行”。但都不是真正意义上的并行:
 

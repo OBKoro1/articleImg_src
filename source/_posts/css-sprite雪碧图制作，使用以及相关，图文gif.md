@@ -18,7 +18,7 @@ CSS雪碧的基本原理是把你的网站上用到的一些图片整合到一�
 ---
 
 长这样：
-![css sprit](https://dn-mhke0kuv.qbox.me/07f57ff83cec9de20cb2)
+![css sprit](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 看图片就知道多好用！
 
@@ -34,16 +34,16 @@ CSS雪碧的基本原理是把你的网站上用到的一些图片整合到一�
 2.打开雪碧图，选择图片。
 ---
 
-![](https://dn-mhke0kuv.qbox.me/0cc59dfda362991ef28f)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 3.添加完图片之后，会自动生成代码，需要排列一下图片：
 ---
 
-![](https://dn-mhke0kuv.qbox.me/540b6855a8f1cd63afa4)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
-![可以看到我排列图片的时候，下面的代码也会跟着刷新](https://dn-mhke0kuv.qbox.me/fe5a1265957120cf390a.gif)
+![可以看到我排列图片的时候，下面的代码也会跟着刷新](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 可以看到排列图片的时候，下面的代码也会跟着刷新
 
@@ -52,24 +52,24 @@ CSS雪碧的基本原理是把你的网站上用到的一些图片整合到一�
 3.保存图片以及雪碧图css代码
 ---
 保存雪碧图
-![](https://dn-mhke0kuv.qbox.me/9eda37300841b0915105)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 生成的雪碧图：
-![](https://dn-mhke0kuv.qbox.me/d4ecfa490c99fdc03522)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 保存雪碧图-css代码（因为软件没有到导出css代码的功能，所以要自己新建一个txt文件，放在雪碧图旁边，以后打开txt就知道图片在雪碧图的位置。）
 
-![](https://dn-mhke0kuv.qbox.me/6b862bdd46e619ea2802)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 gif操作：
 
-![](https://dn-mhke0kuv.qbox.me/1b5c1e3609129f5b58a9.gif)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 如何在html中使用？
 ---
 慕课网雪碧图：
 
-![](https://dn-mhke0kuv.qbox.me/fca91f283b5ac39592a3)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 慕课网demo：http://www.imooc.com/code/1511。
 慕课网雪碧图教程：http://www.imooc.com/learn/93
 

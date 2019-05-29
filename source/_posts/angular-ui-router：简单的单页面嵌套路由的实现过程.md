@@ -20,7 +20,7 @@ UI-Router是angular原生ng-route进化版，相较与ng-router有如下两条�
 最终实现demo效果
 ---
 
-![](https://dn-mhke0kuv.qbox.me/1035fc96102e99ed0631.gif)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 AngularJS单页面实现原理：
 ---
@@ -37,7 +37,7 @@ http://runoob.com/#/third
 2.  **#号之后的内容**在向服务端请求时会**被浏览器忽略掉**
 3.  路由就通过** # + 标记**帮助我们**区分不同的逻辑页面并将不同的页面绑定到对应的控制器上**，如下图所示：
 
-    ![不同的视图页面对应不同的控制器](https://dn-mhke0kuv.qbox.me/6fe0883403f7cb72acd7)
+    ![不同的视图页面对应不同的控制器](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 ### [demo地址](https://obkoro1.github.io/article-demo/2017/uiRouter/index.html#/PageTab/Page3)
@@ -81,7 +81,7 @@ ps：现在angular4，自带的原生ng-router好像也已经支持了多层嵌�
 
 这几个文件是最基本的页面，如果是一个**完整的angular单页面项目**的话，**index,html**是这幅样子：
 
-![](https://dn-mhke0kuv.qbox.me/a7e76d330ad49be344e8)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 在单页面中，不管你从哪个视图查看网页代码，都是这样子，第一次看的都醉了！
 

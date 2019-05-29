@@ -14,7 +14,7 @@ categories: css
 最终要实现的效果：
 ---
 
-![其中包括一部分js代码](https://dn-mhke0kuv.qbox.me/d6188c82f8938b287a45)
+![其中包括一部分js代码](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 步骤：
 ---
@@ -33,7 +33,7 @@ categories: css
 ````
 ### range在各个浏览器中的默认样式：
 
-![](https://dn-mhke0kuv.qbox.me/65f15ffd154ba761c1c5)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### range属性相关：
 
@@ -46,12 +46,12 @@ range 类型显示为滑块。
 ### html5 range 类型的限定：
 
 
-![html5关于range的属性](https://dn-mhke0kuv.qbox.me/b6e9b9bcc9e0cfb67c33)
+![html5关于range的属性](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ### HTML DOM Input Range 对象（js获取dom）
 
 
-![js获取dom可以看看，到时可以查阅相关资料](https://dn-mhke0kuv.qbox.me/81cefd16c36049964697)
+![js获取dom可以看看，到时可以查阅相关资料](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ---
 
@@ -87,7 +87,7 @@ range 类型显示为滑块。
 5.关于代码中js部分，**还没学js的小伙伴们，可以跳过，不影响修改滑块的默认样式的。**
 
 
-![再放一下最终实现的效果，省的翻页麻烦](https://dn-mhke0kuv.qbox.me/faf23fe99426e4cb2a3e)
+![再放一下最终实现的效果，省的翻页麻烦](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 ### css样式修改：
 
 下面是玩家人数的css样式（不重要，可以跳过）：
@@ -234,10 +234,10 @@ ps：
 
 ps：关于浏览器兼容这块儿，还没研究好（下面有篇文章是讲**浏览器兼容**的）。**以上只针对谷歌浏览器**，因为range是html5新出的属性，w3c还没出标准属性，各个浏览器的方法不一样，这块儿有点麻烦。但我记在笔记里面了，今后研究清楚了，再回来更文。
 
-![三个浏览器的不同效果](https://dn-mhke0kuv.qbox.me/2d41f7daf7c2e9f145dc)
+![三个浏览器的不同效果](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 关于滑块的填充效果，各个浏览器都不一样**Chrome**浏览器中不支持直接设置进度条，要借助js。而在IE 9以上的浏览器中可以使用::-ms-fill-lower 和 ::-ms-fill-upper来自定义进度条；在Firefox浏览器中则可以通过::-moz-range-progress来自定义；今天下午研究了一阵子，只弄出了一个ie的填充效果，没研究清楚，可能过段时间会再回来更新。（有兴趣的小伙伴可以研究一下，相互交流交流。）
 
-![IE演示的](https://dn-mhke0kuv.qbox.me/9cb92093087cfbf62c1f.gif)
+![IE演示的](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
 #### 以下是I兼容E浏览器的滑块

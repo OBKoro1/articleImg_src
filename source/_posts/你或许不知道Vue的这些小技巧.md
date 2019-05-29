@@ -7,7 +7,7 @@ tags:
 categories: Vue
 ---
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fry5mboqkdj30qe0hl4qp.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ## 前言
 
@@ -403,7 +403,7 @@ this将会指向undefined。
 
 在chrome开发者工具中会看一个vue的一栏，如下对我们网页应用内数据变化，组件层级等信息能够有更准确快速的了解。
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fry5f9w6r4j31h9090my4.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ---
 
@@ -425,7 +425,7 @@ this将会指向undefined。
  
 如果喜欢本文的话，欢迎关注我的订阅号，漫漫技术路，期待未来共同学习成长。
 
-![](https://user-gold-cdn.xitu.io/2018/5/1/1631b6f52f7e7015?w=344&h=344&f=jpeg&s=8317)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
  
  以上2018.6.3
  

@@ -24,7 +24,7 @@ categories: css
 移动设备上的浏览器都会把自己默认的viewport设为980px或1024px（也可能是其它值，这个是由设备自己决定的），但带来的后果就是浏览器会出现横向滚动条，因为浏览器可视区域的宽度是比这个默认的viewport的宽度要小的。下图列出了一些设备上浏览器的默认viewport的宽度。
 
 
-![浏览器的默认viewport的宽度。](http://upload-images.jianshu.io/upload_images/5245297-1ccdb61f8f6d1ab5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![浏览器的默认viewport的宽度。](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ##### 2.移动设备哪些因素会引起css中px的变化？
   在css中我们一般使用px作为单位，在桌面浏览器中css的1个像素往往都是对应着电脑屏幕的1个物理像素。但实际情况却并非如此，**css中的像素只是一个抽象的单位**，在**不同的设备或不同的环境**中，css中的1px所代表的**设备物理像素**是不同的。
@@ -55,7 +55,7 @@ ps：兼容这块儿，笔者还没找到相应的数据支持。但是在日常
 
 不同分辨率的安卓手机上，devicePixelRatio的值能正好填充全屏宽度：
 
-![不同分辨率手机上，devicePixelRatio的值能正好填充全屏宽度](http://upload-images.jianshu.io/upload_images/5245297-3d9f84137f64b78e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![不同分辨率手机上，devicePixelRatio的值能正好填充全屏宽度](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 三.常见问题。
 ------------
@@ -67,7 +67,7 @@ ps：兼容这块儿，笔者还没找到相应的数据支持。但是在日常
 
 ````
 **标签解读：**
-![标签解读](http://upload-images.jianshu.io/upload_images/5245297-2af7764044a18695.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![标签解读](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 在安卓中还支持  target-densitydpi  这个私有属性，它表示目标设备的密度等级，作用是决定css中的1px代表多少物理像素
 
@@ -81,7 +81,7 @@ ps：兼容这块儿，笔者还没找到相应的数据支持。但是在日常
 
 ````
 
-![代码在 各大移动端浏览器上的测试结果](http://upload-images.jianshu.io/upload_images/5245297-400464d22b2a49ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![代码在 各大移动端浏览器上的测试结果](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 可以看到通过width=device-width，所有浏览器都能把**当前的viewport宽度变成ideal viewport的宽度**，但要注意的是，在iphone和ipad上，无论是竖屏还是横屏，宽度都是竖屏时ideal viewport的宽度。
 

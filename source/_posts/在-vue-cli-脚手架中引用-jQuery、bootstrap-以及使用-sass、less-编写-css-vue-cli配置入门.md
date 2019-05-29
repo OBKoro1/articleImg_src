@@ -18,7 +18,7 @@ categories: vue-cli
     import './assets/bootstrap-3.3.7-dist/js/bootstrap.min'//根据自己文件夹路径选择路径
 这样就可以在vue项目中使用bootstrap的样式了，直接在class中使用即可，如下图按钮样式。
 
-![](https://user-gold-cdn.xitu.io/2017/8/7/8fa300c1f5ce01a2a6169b85b3c65717)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ---
 
@@ -27,7 +27,7 @@ categories: vue-cli
 ### 1. 下载jquery依赖。
         npm install jquery --save
 本来我下载的jQuery依赖包，但是出现了一个警告：
-![](https://user-gold-cdn.xitu.io/2017/8/6/74dba74724cfd56e67b353f875c39c25)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 这里出现了一个警告，意思是说`弃用jQuery@1.7.4,请使用“jquery”(全小写)。`，然后我就换成全小写的jquery。
 ### 2. 修改配置
 1. 位置：build文件夹下的webpack.base.conf.js文件。
@@ -41,7 +41,7 @@ categories: vue-cli
             jquery: "jquery",
             "window.jQuery": "jquery"
         })],
-![如图所示](https://user-gold-cdn.xitu.io/2017/8/6/965457674692e42243cec5c8d29683be)
+![如图所示](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 3. 没有第三步，现在已经可以**直接在组件中使用jquery的方法**了，**不用在其他位置引用jquery**，就是这么轻松加愉快。
 
 ### 3. 使用JQ插件
@@ -53,7 +53,7 @@ jq插件只需要将插件所需要的文件下载到本地src/assets或者最�
 
 ### 下面是一个引用jq插件的demo示例：
 
-![](https://user-gold-cdn.xitu.io/2017/8/7/8482dcb1de93a03dec7ddde5bd1aea6f)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ---
 

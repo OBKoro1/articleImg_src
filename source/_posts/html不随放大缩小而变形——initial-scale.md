@@ -8,9 +8,9 @@ categories: css
 **写在前面：**很惭愧我都在做jq了，关于手机端页面变形，直到今天早上才知道问题出在哪里？之前写了好多css页面用谷歌的F12查看手机端的页面，效果如下面的图，然后我一直以为我电脑的谷歌F12出问题了，直到今天在启宸师兄的帮助下才明白。下面进入正文：
 一直以为是谷歌F12出问题了，查了好多相关的资料还是没查到，然后今天回过头来修改之前页面的问题，然后看到head头部，就觉得可能是initial-scale出的问题，抱着死马当活马医的心态改了一下meta标签的内容。
 **修改initial-scale之前页面的效果：**
-![](http://upload-images.jianshu.io/upload_images/5245297-719c2938ed166144.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
-![](http://upload-images.jianshu.io/upload_images/5245297-d582801f57231a4a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 之前meta标签的用法(这是错的)：
 ````
@@ -29,10 +29,10 @@ user-scalable=yes：表示用户是否可以调整缩放比例
 ps：将比例都改为1,即可。
 **修改initial-scale之后页面的效果：**
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-73c38ed791c2368b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-9696fc7bed13a8b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 **后话：**实际上我一直知道这个标签的意思，但没往这方面去想。这个坑，我纠结了好久，单纯的写出来分享一下，希望可以帮助到需要的朋友。
 

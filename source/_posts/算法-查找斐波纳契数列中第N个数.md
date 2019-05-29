@@ -78,7 +78,7 @@ categories: 算法
 
 不行，我一定要秀一波，不然心里难受：
 
-![](https://user-gold-cdn.xitu.io/2018/8/5/1650894f0e88c323?w=3002&h=1766&f=jpeg&s=383340)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 最后一题的提交，甩的第二名看不到我的车尾灯，开心！
 

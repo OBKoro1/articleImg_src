@@ -6,7 +6,7 @@ tags:
 - js 机制
 categories: js
 ---
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1fsdhdrglvtj31hc0u01ey.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ## 前言
 
@@ -117,7 +117,7 @@ Event Loop(事件循环)中，每一次循环称为 tick, 每一次tick的任务
 
 宏任务 > 所有微任务 > 宏任务，如下图所示：
 
-![](https://user-gold-cdn.xitu.io/2018/6/16/164081cfd8400f92)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 从上图我们可以看出：
 
@@ -172,7 +172,7 @@ Event Loop(事件循环)中，每一次循环称为 tick, 每一次tick的任务
  
 如果喜欢本文的话，欢迎关注我的订阅号，漫漫技术路，期待未来共同学习成长。
 
-![](https://user-gold-cdn.xitu.io/2018/5/1/1631b6f52f7e7015?w=344&h=344&f=jpeg&s=8317)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
  
  以上2018.6.16
  

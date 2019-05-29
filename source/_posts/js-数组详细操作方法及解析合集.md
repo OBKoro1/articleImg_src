@@ -9,7 +9,7 @@ categories: js
 
 ---
 
-![](http://ww1.sinaimg.cn/large/005Y4rCogy1frtrbx8b69j30n20cyh3q.jpg)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 ## 前言
 
@@ -872,7 +872,7 @@ keys()浏览器兼容性(MDN):Chrome 38, Firefox 28,Opera 25,Safari 8,
  
 如果喜欢本文的话，欢迎关注我的订阅号，漫漫技术路，期待未来共同学习成长。
 
-![](https://user-gold-cdn.xitu.io/2018/5/1/1631b6f52f7e7015?w=344&h=344&f=jpeg&s=8317)
+![](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
  
  以上2018.5.30
  

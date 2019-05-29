@@ -31,9 +31,9 @@ lst -- 这可能是一个列表或元组。
 element.removeAttribute(attributename)
 **效果**
 
-![代码和效果](http://upload-images.jianshu.io/upload_images/5245297-25750b2c9fd07c2d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![代码和效果](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/5245297-a6748685a3b14789.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/undefined?raw=true?raw=true)
 
 **demo(demo比较长，放在文末)**
 
