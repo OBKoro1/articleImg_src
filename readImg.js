@@ -3,7 +3,7 @@
  * @Author: OBKoro1
  * @Created_time: 2019-05-28 17:21:41
  * @LastEditors: OBKoro1
- * @LastEditTime: 2019-05-29 17:32:16
+ * @LastEditTime: 2019-05-30 13:59:37
  * @Description: 读取markdown地址，更改他们的url。
  * 建议将项目备份一下，以免操作失误导致数据丢失
  */
@@ -15,7 +15,8 @@ var async = require("async");
 let imgList = [] // img集合
 
 // TODO: 变量
-const imgUrl = 'https://github.com/OBKoro1/articleImg_src/blob/master/dist/'; // 要被替换的图片地址
+let imgUrl = 'http://ww1.sinaimg.cn/large/'
+// const imgUrl = 'https://github.com/OBKoro1/articleImg_src/blob/master/dist/'; // 要被替换的图片地址
 const newUrl = 'https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/' // 替换成这个地址
 const addEnd = '?raw=true' // 项目地址
 // const newUrl = 'https://baidu.com/src/' // 替换成这个地址
@@ -55,35 +56,38 @@ function readFile(path, replace = false) {
                 // 读取文件
                 let data = fs.readFileSync(url, 'utf-8'); // 获取文件内容 返回字符串
                 let res;
+                let isChange = false
                 while ((res = reg.exec(data)) !== null) {
                     let regUrl = res[2]
-                    if (replace) {
-                        // 拼接要替换的url
-                        let imgName = regUrl.split(imgUrl)[1]
-                        let replaceUrl = `${newUrl}${imgName}`
-                        // 可以添加后缀 如github查看图片后缀为: ?raw=true
-                        if (addEnd) {
-                            replaceUrl += addEnd
-                        }
-                        // 替换字符串
-                        data = data.replace(regUrl, replaceUrl)
-                    } else {
-                        // 添加图片到数组
-                        if (regUrl.indexOf(imgUrl) !== -1) {
+                    // 添加图片到数组 是否找到该字符串
+                    if (regUrl.indexOf(imgUrl) !== -1) { 
+                        if (replace) {
+                            // 拼接要替换的url
+                            let imgName = regUrl.split(imgUrl)[1]
+                            let replaceUrl = `${newUrl}${imgName}`
+                            // 可以添加后缀 如github查看图片后缀为: ?raw=true
+                            if (addEnd) {
+                                replaceUrl += addEnd
+                            }
+                            // console.log('replaceUrl', regUrl, imgName, replaceUrl)
+                            // 替换字符串
+                            isChange = true
+                            data = data.replace(regUrl, replaceUrl)
+                        } else {
                             imgList.push(regUrl)
                         }
                     }
                 }
                 // 修改文件
-                if (replace) {
+                if (replace && isChange) {
                     fs.writeFile(url, data, 'utf-8', () => {
                         console.log('修改成功', url)
                     })
                 }
-                console.log('图片提取完成', imgList)
             }
         }
     })
+    console.log('图片提取完成', imgList)
 }
 
 // 下载图片
