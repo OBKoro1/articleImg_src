@@ -1,4 +1,4 @@
-const markdownImageDown = require('markdown-img-down-site-change')); // 文件模块
+const markdownImageDown = require('markdown-img-down-site-change'); // 文件模块
 
 // 传参： 这也是脚本的默认参数，根据情况可以自行修改
 let option = {
