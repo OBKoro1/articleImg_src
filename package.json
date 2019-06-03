@@ -21,6 +21,7 @@
     "request": "^2.88.0"
   },
   "dependencies": {
-    "async": "^3.0.1"
+    "async": "^3.0.1",
+    "markdown-img-down-site-change": "^1.0.5"
   }
 }
