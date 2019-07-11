@@ -3,7 +3,7 @@
  * @Author: OBKoro1
  * @Created_time: 2019-05-31 16:05:19
  * @LastEditors: OBKoro1
- * @LastEditTime: 2019-07-10 21:04:51
+ * @LastEditTime: 2019-07-11 20:27:25
  * @Description: 查找指定文件夹的所有markdown文件。
  * 根据参数找出要所有要替换的图片，下载所有图片，替换图片的地址。
  */
@@ -17,8 +17,8 @@ const markdownImageDown = require('markdown-img-down-site-change'); // 文件模
 // 传参： 这也是脚本的默认参数，根据情况可以自行修改
 let option = {
     replace_image_url: 'https://github.com/OBKoro1/articleImg_src/blob/master/juejin/',
-    read_markdown_src: './docs/', // 要查找markdown文件的文件夹地址
-    down_img_src: './juejin', // 下载图片到这个文件夹
+    read_markdown_src: './srcTest/', // 要查找markdown文件的文件夹地址
+    down_img_src: './downImg', // 下载图片到这个文件夹
     // var_number: 3, // url前半部分的变量数量 比如上面的日期: /2019/5/20/、/2018/6/16/
     // test: false,
 }
@@ -34,7 +34,7 @@ markdownImage.checkDownImg();
 // 上传图片之后 
 // 脚本会把以前的外链替换成云端地址+拼接一个图片名
 markdownImage.updateOption({
-    new_image_url: 'https://github.com/OBKoro1/articleImg_src/blob/master/juejin/', // 图片上传的地址
+    new_image_url: 'https://github.com/OBKoro1/articleImg_src/blob/master/downImg/', // 图片上传的地址
     add_end: '?raw=true' // github图片地址有后缀 直接进去是仓库
 })
 
